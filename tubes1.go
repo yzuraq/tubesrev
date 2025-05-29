@@ -441,7 +441,7 @@ func inputNilaiTryOut(tabSiswa *dataSiswa) {
 	}
 
 	fmt.Println("Siswa ditemukan:", tabSiswa.listSiswa[siswaIdx].nama)
-	fmt.Println("Mata Pelajaran yang dipilih (maksimal 5 mata pelajaran):")
+	fmt.Println("Mata Pelajaran yang dipilih (maksimal 3 mata pelajaran):")
 	for i := 0; i < 3; i++ {
 		if tabSiswa.listSiswa[siswaIdx].mataPelajaran[i].nama != "" {
 			fmt.Printf("%d. %s\n", i+1, tabSiswa.listSiswa[siswaIdx].mataPelajaran[i].nama)
